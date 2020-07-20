@@ -2,13 +2,13 @@ package in.nit.rohit.gir_demo;
 
 public class App 
 {
-	public void message()
+	public String message(String str)
 	{
-		System.out.println("welcome");
+		return "welcome"+str;
 	}
     public static void main( String[] args )
     {
-    	new App().message();
-        System.out.println( "ROHIT" );
+    	new App().message("ROHIT");
+        
     }
 }
