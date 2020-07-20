@@ -7,6 +7,11 @@ public class App
 	{
 		return "welcome"+str;
 	}
+	
+	public void newMethodadded()
+	{
+		System.out.println("Welcome");
+	}
     public static void main( String[] args )
     {
     	new App().message("ROHIT");
